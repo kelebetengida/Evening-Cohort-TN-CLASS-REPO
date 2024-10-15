@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: lightgrey;
+}
+
+/* Stretch Goal */
+.cell + .cell {
+    margin-left: 10px;
+}
