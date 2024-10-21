@@ -22,7 +22,7 @@ figure {
 }
 
 /* TODO: Label selector type */
-high.lighted-text {
+.highlighted-text {
   font-weight: bolder;
 }
 
