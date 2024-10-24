@@ -8,7 +8,7 @@ h3 {
   text-align: center;
 }
 
-h3 {
+h3 {  
   font-size: 20px;
   line-height: 2px;
 }
@@ -35,4 +35,13 @@ section {
 .second-element {
   background-color: goldenrod;
 }
-
+/* This display property aplies all of the element with this clas to display block */
+.display-block{
+  display: block;
+}
+.display-inline {
+  display: inline;
+}
+.display-none {
+  display: none;
+}

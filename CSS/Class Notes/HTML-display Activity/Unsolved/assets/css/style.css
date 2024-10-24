@@ -15,13 +15,15 @@ ul {
 /* List items in navigation bar */
 li {
   /* TODO: Add your code here */
- 
+ display:inline
 }
 
 /* Boxes */
 img {
-  /* TODO: Add your code here */
   
+  visibility: hidden;
+  margin:0 auto
+
 }
 
 #item-1 {
