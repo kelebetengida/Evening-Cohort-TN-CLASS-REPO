@@ -20,12 +20,29 @@ section {
 
 /* Absolute positioning */
 
-
+#absolute-box{
+  position: absolute;
+  top:50px;
+  bottom:100px;
+}
 
 
 /* Relative positioning */
+#absolute-section{
+  position: relative;
+}
+
+#relative-box{
+  position: relative;
+  left:200px
+}
 
 
 
 
 /* Fixed positioning */
+#fixed-box{
+ position: fixed;
+ top:0px;
+right: 0px;
+}
