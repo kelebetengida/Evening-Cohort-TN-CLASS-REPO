@@ -2,7 +2,7 @@
 
 //We have two different data types. WHat are they?
     // primitive 
-        // Number
+        // Number (float)
         // String
         // Boolean
         // null
