@@ -44,7 +44,7 @@ if (itCompanies.includes(company)){
 }
 
 // Filter out companies which have more than one 'o' without the filter method
-
+console
 
 // Sort the array using sort() method
 itCompanies.sort()
@@ -58,22 +58,21 @@ console.log(itCompanies)
 console.log(itCompanies.slice(0, 2))
 
 // Slice out the last 3 companies from the array
-
-
+console.log(itCompanies.slice(4, 6))
 // Slice out the middle IT company or companies from the array
-
+console.log(itCompanies.slice(3))
 
 // Remove the first IT company from the array
-
+console.log(itCompanies.slice(0))
 
 // Remove the middle IT company or companies from the array
-
+console.log(itCompanies.splice(1, 3))
 
 // Remove the last IT company from the array
-
+console.log(itC)
 
 // Remove all IT companies
-
+console.log(0 , 6)
 
 // Create a separate countries.js file and store the countries array in to this file, create a separate file web_techs.js and store the webTechs array in to this file. Access both file in main.js file
 
@@ -106,7 +105,7 @@ console.log(itCompanies.slice(0, 2))
 
 // const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 // const backEnd = ['Node','Express', 'MongoDB']
-
+const 
 // console.log(fullStack)
 // ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
 // Exercise: Level 3
