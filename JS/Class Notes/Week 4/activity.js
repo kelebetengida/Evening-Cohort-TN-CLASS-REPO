@@ -33,6 +33,7 @@ console.log(itCompanies)
 console.log(itCompanies.toUpperCase())
 
 // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+let itcompanies=["Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies."]
 console.log(`${itCompanies} are big IT companies`)
 
 // Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
@@ -60,7 +61,8 @@ console.log(itCompanies.slice(0, 2))
 // Slice out the last 3 companies from the array
 console.log(itCompanies.slice(4, 6))
 // Slice out the middle IT company or companies from the array
-console.log(itCompanies.slice(3))
+const midlleCountry= Math.floor(itCompanies.length/2)
+console.log(itCompanies.slice(midlleCountry,midlleCountry+1))//Apple
 
 // Remove the first IT company from the array
 console.log(itCompanies.slice(0))
@@ -105,7 +107,7 @@ console.log(0 , 6)
 
 // const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 // const backEnd = ['Node','Express', 'MongoDB']
-const 
+
 // console.log(fullStack)
 // ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
 // Exercise: Level 3
