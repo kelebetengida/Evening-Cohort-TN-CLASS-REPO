@@ -183,8 +183,6 @@ function reverseArray(array) {
     }
     return reversed;
 }
-consol
-    ()gol.elos
 // Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 function capitalizeArray(array) {
     return array.map(item => item.toString().toUpperCase());
