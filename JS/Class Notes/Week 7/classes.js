@@ -66,3 +66,6 @@ const car4=new Car()//default car value
 console.log( car3.getScore)//0
 car3.setScore=3
 console.log( car3.getScore)
+
+////////////////////////////////////////Inheritance////////////////////////////
+

@@ -1,0 +1,32 @@
+/* CSS styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  .wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1 {
+    color: blue;
+  }
+  h2 {
+    color: green;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding: 10px;
+    margin: 5px;
+  }
+  .completed {
+    background-color: green;
+  }
+  .ongoing {
+    background-color: yellow;
+  }
+  .coming {
+    background-color: red;
+  }
